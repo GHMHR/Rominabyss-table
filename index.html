@@ -2,7 +2,7 @@
 <html lang="ja">
 
 <head>
-    <title>Rominabyss作譜面</title>
+    <title>Rominabyss差分</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +19,7 @@
     <header class="mb-3">
         <nav class="navbar navbar-dark bg-dark">
             <div class="container-fluid">
-                <span class="navbar-brand mb-0 h1">Rominabyss作譜面</span>
+                <span class="navbar-brand mb-0 h1">Rominabyss差分</span>
             </div>
         </nav>
     </header>
@@ -27,10 +27,10 @@
     <div class="container">
 
         <div class="alert alert-success mb-3" role="alert">
-            <p>Rominabyss作譜面。次期難易度表フォーマット対応。</p>
+            <p>Rominabyss差分。次期難易度表フォーマット対応。</p>
             <p>難易度表の読み込みと表示に数秒かかります。</p>
             <hr>
-            <p class="mb-0">説明文</p>
+            <p class="mb-0">難易度はbeatoraja表に準じます。</p>
         </div>
 
 
@@ -74,10 +74,10 @@
                     var str = $("<tr></tr>");
 
                     // Level
-                    $("<td width='10%'>" + mark + x + "</td>").appendTo(str);
+                    $("<td width='5%'>" + mark + x + "</td>").appendTo(str);
 
                     // Title
-                    $("<td width='40%'>" +
+                    $("<td width='45%'>" +
                         "<a href='http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=" + info[
                             i]
                         .md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
